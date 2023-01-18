@@ -81,9 +81,38 @@ public class ControlsPage {
 	public WebElement getEnterYourName() {
 		return EnterYourName;
 	}
+	
+	
+	public WebElement getUITestLink() {
+		return UITestLink;
+	}
+
+	public WebElement getUiTestTab() {
+		return UiTestTab;
+	}
+
+	public WebElement getUiNewWindow() {
+		return UiNewWindow;
+	}
+
+	public WebElement getMVCFramework() {
+		return MVCFramework;
+	}
+
+	public WebElement getSelenium() {
+		return Selenium;
+	}
+
+	public WebElement getCodedUI() {
+		return CodedUI;
+	}
+
+	public WebElement getMobileAppTesting() {
+		return MobileAppTesting;
+	}
 
 // Business Library Logics
-	
+
 	/**
 	 * This Method is used to perform the Drag And Drop Operation
 	 */

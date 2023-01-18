@@ -49,7 +49,7 @@ public class ControlsTest extends BaseClass{
 		Reporter.log("New Tab Operation done Succesfully",true);
 	}
 	
-	@Test
+	@Test(invocationCount = 0)
 	public void UiNewWindowTest()
 	{
 		ControlsPage cp = new ControlsPage(driver);
